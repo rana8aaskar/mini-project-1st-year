@@ -3,6 +3,10 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+.chat{
+    text-align: center;
+    border-radius: 5px;
+}
 .click {
     display: flex;
     flex-direction: column;
