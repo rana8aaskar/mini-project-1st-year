@@ -9,7 +9,10 @@
 .navbar-collapse {
     margin-right: 1rem; 
 }
-
+.submit{
+    background-color: rgb(10, 10, 10) !important;
+    
+}
 body{
     display: block;
     height: 100vh;
