@@ -25,6 +25,7 @@ main */
 
 h2 {
     text-align: center;
+    
 }
 
 form {
@@ -33,7 +34,7 @@ form {
 }
 
 label {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 input[type="text"],
