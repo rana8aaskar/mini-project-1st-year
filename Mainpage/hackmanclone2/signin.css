@@ -12,7 +12,19 @@
 
 
 .custom-btn{
-    background-color: black;
+    
+    display: block;
+    width: 100%;
+    padding: 12px; 
+    background-color: #000000; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer;
+    font-size: 18px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    transition: background-color 0.3s, transform 0.3s; 
 }
 /* header */
 
