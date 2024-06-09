@@ -1,19 +1,41 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
-
+.navbar-nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.navbar-brand {
+    margin-left: 1rem; /* Adjust this value as needed for more/less space */
+}
+.navbar-collapse {
+    margin-right: 1rem; /* Adjust this value as needed for more/less space */
+}
+.submit{
+    background-color: white;
+    width: 90px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h2m{
+    text-align: center;
+    color: white ;
+}
 .container {
-    background-color: #13595e;
+    background-color: #f0eeee;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 400px;
+    box-shadow: 0 0 10px rgba(255, 253, 253, 0.1);
+    width: 0px;
+    height: 500px;
 }
 
 .container h2 {
