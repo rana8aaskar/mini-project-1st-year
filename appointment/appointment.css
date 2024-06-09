@@ -1,65 +1,49 @@
 body {
     font-family: Arial, sans-serif;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-color: #f4f4f4;
     margin: 0;
+    padding-top: 0px;
+    margin-bottom: 100px; /* To ensure the content is not hidden under the fixed navbar */
 }
+
 .navbar-nav {
     flex: 1;
     display: flex;
     justify-content: space-evenly;
-    color: white;
 }
+
 .navbar-brand {
-    margin-left: 1rem; /* Adjust this value as needed for more/less space */
+    margin-left: 1rem; 
 }
+
 .navbar-collapse {
-    margin-right: 1rem; /* Adjust this value as needed for more/less space */
+    margin-right: 1rem; 
 }
-.submit{
-    background-color: white;
-    width: 90px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.h2m{
-    text-align: center;
-    color: white ;
-}
-.container {
-    background-color: #f0eeee;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(255, 253, 253, 0.1);
-    width: 0px;
-    height: 500px;
-}
+
+
 
 .container h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #000;
+    color: #ffffff;
 }
 
 .form-group {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+    flex-direction: column; /* Stack inputs vertically */
+    margin-bottom: 10px;
 }
 
 .form-group input,
 .form-group textarea {
-    width: calc(50% - 10px);
+    width: 100%; /* Full width inputs */
     padding: 10px;
+    margin-bottom: 10px; /* Space between inputs */
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 .form-group textarea {
-    width: 100%;
     resize: none;
 }
 
@@ -71,10 +55,10 @@ body {
 
 .btn {
     display: block;
-    width: 100%;
+    width: 40%;
     padding: 10px;
-    background-color: #ac750f;
-    color: #fff;
+    background-color: #0e0e0e!important; /* Changed button color to Bootstrap primary */
+    color: rgb(254, 254, 254) !important;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -82,5 +66,33 @@ body {
 }
 
 .btn:hover {
-    background-color: #13595e;
+    background-color: #0056b3; /* Darker shade for hover */
+    color: white;
+}
+.helpme{
+  
+    display: flex;
+    justify-content: center;
+    background-color: ;
+    
+}
+.help
+{    margin: 5%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3%;
+    padding: 20px;.helpme{
+  
+    display: flex;
+    justify-content: center;
+    
+}
+.help
+{    margin: 5%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3%;
+    padding: 20px;
+    
+}
 }
