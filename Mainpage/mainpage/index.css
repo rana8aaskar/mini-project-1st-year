@@ -121,6 +121,7 @@ h2{
 .box2 {
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .box h2 {
@@ -142,3 +143,79 @@ h2{
     color: #333;
     margin-bottom: 10px;
 }
+/* foteer */
+/* Basic reset and container */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f8f9fa; /* Light gray background for footer */
+    padding: 40px 20px;
+    color: #6c757d; /* Medium gray for text */
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-col h5 {
+    margin-bottom: 15px;
+    color: #343a40; /* Dark gray for headings */
+  }
+  
+  .footer-col p, 
+  .footer-col ul, 
+  .footer-col a {
+    color: #6c757d; /* Medium gray for text */
+    text-decoration: none;
+  }
+  
+  .footer-col ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col ul li a {
+    color: #6c757d; /* Medium gray for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #007bff; /* Blue color for links on hover */
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    background-color: #343a40; /* Dark gray background */
+    color: white; /* White text */
+    padding: opx;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
