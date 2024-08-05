@@ -71,3 +71,70 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+/* footer */
+/* Basic reset and container */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 40px 20px;
+    text-align: left;
+  }
+  
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-col h5 {
+    margin-bottom: 15px;
+    color: #343a40; /* Dark gray for headings */
+  }
+  
+  .footer-col p, 
+  .footer-col ul, 
+  .footer-col a {
+    color: #6c757d; /* Medium gray for text */
+    text-decoration: none;
+  }
+  
+  .footer-col ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col ul li a {
+    transition: color 0.3s ease;
+  }
+  
+  .footer-col ul li a:hover {
+    text-decoration: underline;
+    color: #007bff; /* Change to blue on hover */
+  }
+  
+  .footer-bottom {
+    background-color: #343a40; /* Dark gray background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
